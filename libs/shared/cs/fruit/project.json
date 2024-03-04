@@ -1,0 +1,26 @@
+{
+  "name": "shared-cs-fruit",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/shared/cs/c",
+  "targets":{
+    "build": {
+      "executor": "@nx-dotnet/core:build",
+      "outputs": [
+        "{workspaceRoot}/dist/libs/shared/cs/query",
+        "{workspaceRoot}/dist/intermediates/libs/shared/cs/query",
+        "{projectRoot}/bin",
+        "{projectRoot}/obj"
+              ],
+      "options": {
+        "configuration": "Debug",
+        "noDependencies": true
+      },
+      "configurations": {
+        "production": {
+          "configuration": "Release"
+        }
+      }
+    }
+  }
+}

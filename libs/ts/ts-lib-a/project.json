@@ -1,0 +1,8 @@
+{
+  "name": "ts-lib-a",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ts/ts-lib-a/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}
