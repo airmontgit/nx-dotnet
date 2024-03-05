@@ -80,7 +80,7 @@
       "solutionFile": true
     },
     "@nx-dotnet/core:library": {
-      "solutionFile": "nxDotnet.sln"
+      "solutionFile": "nx-dotnet.sln"
     }
   }
 }
